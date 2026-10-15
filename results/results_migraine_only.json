@@ -1,0 +1,175 @@
+{
+  "n_migraine": 583,
+  "n_migraine_discharged": 553,
+  "n_migraine_opioid": 99,
+  "n_migraine_opioid_discharged": 86,
+  "results": [
+    {
+      "label": "migraine-only ret_72h",
+      "outcome": "ret_72h",
+      "n": 553,
+      "n_opioid": 86,
+      "risk_opioid": 9.19,
+      "risk_dopa": 3.2,
+      "rd_pct": 5.99,
+      "rd_ci": [
+        -0.04,
+        13.24
+      ],
+      "rr": 2.869,
+      "rr_ci": [
+        0.991,
+        10.766
+      ],
+      "smd_pre": 0.398,
+      "smd_post": 0.059,
+      "evalue": 5.18,
+      "ess_opioid": 82.0,
+      "ess_dopa": 282.3
+    },
+    {
+      "label": "migraine-only ret_7d",
+      "outcome": "ret_7d",
+      "n": 553,
+      "n_opioid": 86,
+      "risk_opioid": 14.18,
+      "risk_dopa": 4.85,
+      "rd_pct": 9.34,
+      "rd_ci": [
+        2.07,
+        17.61
+      ],
+      "rr": 2.927,
+      "rr_ci": [
+        1.383,
+        8.262
+      ],
+      "smd_pre": 0.398,
+      "smd_post": 0.059,
+      "evalue": 5.3,
+      "ess_opioid": 82.0,
+      "ess_dopa": 282.3
+    },
+    {
+      "label": "migraine-only ret_72h_ha",
+      "outcome": "ret_72h_ha",
+      "n": 553,
+      "n_opioid": 86,
+      "risk_opioid": 7.37,
+      "risk_dopa": 2.64,
+      "rd_pct": 4.73,
+      "rd_ci": [
+        -1.2,
+        11.46
+      ],
+      "rr": 2.789,
+      "rr_ci": [
+        0.683,
+        14.044
+      ],
+      "smd_pre": 0.398,
+      "smd_post": 0.059,
+      "evalue": 5.02,
+      "ess_opioid": 82.0,
+      "ess_dopa": 282.3
+    },
+    {
+      "label": "migraine-only ret_7d_ha",
+      "outcome": "ret_7d_ha",
+      "n": 553,
+      "n_opioid": 86,
+      "risk_opioid": 12.36,
+      "risk_dopa": 4.11,
+      "rd_pct": 8.24,
+      "rd_ci": [
+        1.45,
+        16.33
+      ],
+      "rr": 3.005,
+      "rr_ci": [
+        1.291,
+        9.026
+      ],
+      "smd_pre": 0.398,
+      "smd_post": 0.059,
+      "evalue": 5.46,
+      "ess_opioid": 82.0,
+      "ess_dopa": 282.3
+    },
+    {
+      "label": "migraine-only admission",
+      "outcome": "admitted",
+      "n": 583,
+      "n_opioid": 99,
+      "risk_opioid": 12.1,
+      "risk_dopa": 2.11,
+      "rd_pct": 9.99,
+      "rd_ci": [
+        3.74,
+        16.6
+      ],
+      "rr": 5.729,
+      "rr_ci": [
+        2.079,
+        20.866
+      ],
+      "smd_pre": 0.413,
+      "smd_post": 0.055,
+      "evalue": 10.93,
+      "ess_opioid": 94.0,
+      "ess_dopa": 304.2
+    }
+  ],
+  "raw_counts": {
+    "ret_72h": {
+      "opioid": {
+        "num": 8,
+        "den": 86
+      },
+      "dopamine": {
+        "num": 13,
+        "den": 467
+      }
+    },
+    "ret_7d": {
+      "opioid": {
+        "num": 12,
+        "den": 86
+      },
+      "dopamine": {
+        "num": 21,
+        "den": 467
+      }
+    },
+    "ret_72h_ha": {
+      "opioid": {
+        "num": 6,
+        "den": 86
+      },
+      "dopamine": {
+        "num": 10,
+        "den": 467
+      }
+    },
+    "ret_7d_ha": {
+      "opioid": {
+        "num": 10,
+        "den": 86
+      },
+      "dopamine": {
+        "num": 17,
+        "den": 467
+      }
+    },
+    "admitted": {
+      "opioid": {
+        "num": 12,
+        "den": 99
+      },
+      "dopamine": {
+        "num": 12,
+        "den": 484
+      }
+    }
+  }
+}

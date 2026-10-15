@@ -1,0 +1,148 @@
+{
+  "pooled": [
+    {
+      "label": "pooled ret_72h_ha",
+      "outcome": "ret_72h_ha",
+      "n": 4450,
+      "n_opioid": 1134,
+      "risk_opioid": 4.1,
+      "risk_dopa": 3.13,
+      "rd_pct": 0.97,
+      "rd_ci": [
+        -0.32,
+        2.4
+      ],
+      "rr": 1.31,
+      "rr_ci": [
+        0.91,
+        1.876
+      ],
+      "smd_pre": 0.371,
+      "smd_post": 0.003,
+      "evalue": 1.95,
+      "ess_opioid": 1078.8,
+      "ess_dopa": 2569.8
+    },
+    {
+      "label": "pooled ret_7d_ha",
+      "outcome": "ret_7d_ha",
+      "n": 4450,
+      "n_opioid": 1134,
+      "risk_opioid": 5.95,
+      "risk_dopa": 4.88,
+      "rd_pct": 1.07,
+      "rd_ci": [
+        -0.45,
+        2.61
+      ],
+      "rr": 1.219,
+      "rr_ci": [
+        0.914,
+        1.588
+      ],
+      "smd_pre": 0.371,
+      "smd_post": 0.003,
+      "evalue": 1.73,
+      "ess_opioid": 1078.8,
+      "ess_dopa": 2569.8
+    }
+  ],
+  "by_site": {
+    "MIMIC": [
+      {
+        "label": "MIMIC ret_72h_ha",
+        "outcome": "ret_72h_ha",
+        "n": 3699,
+        "n_opioid": 1049,
+        "risk_opioid": 4.27,
+        "risk_dopa": 3.19,
+        "rd_pct": 1.08,
+        "rd_ci": [
+          -0.33,
+          2.48
+        ],
+        "rr": 1.34,
+        "rr_ci": [
+          0.903,
+          1.921
+        ],
+        "smd_pre": 0.349,
+        "smd_post": 0.001,
+        "evalue": 2.01,
+        "ess_opioid": 999.0,
+        "ess_dopa": 2196.4
+      },
+      {
+        "label": "MIMIC ret_7d_ha",
+        "outcome": "ret_7d_ha",
+        "n": 3699,
+        "n_opioid": 1049,
+        "risk_opioid": 6.21,
+        "risk_dopa": 5.02,
+        "rd_pct": 1.19,
+        "rd_ci": [
+          -0.52,
+          2.9
+        ],
+        "rr": 1.237,
+        "rr_ci": [
+          0.901,
+          1.646
+        ],
+        "smd_pre": 0.349,
+        "smd_post": 0.001,
+        "evalue": 1.78,
+        "ess_opioid": 999.0,
+        "ess_dopa": 2196.4
+      }
+    ],
+    "MC-MED": [
+      {
+        "label": "MC-MED ret_72h_ha",
+        "outcome": "ret_72h_ha",
+        "n": 751,
+        "n_opioid": 85,
+        "risk_opioid": 2.51,
+        "risk_dopa": 2.34,
+        "rd_pct": 0.17,
+        "rd_ci": [
+          -3.03,
+          4.76
+        ],
+        "rr": 1.074,
+        "rr_ci": [
+          0.0,
+          3.722
+        ],
+        "smd_pre": 0.307,
+        "smd_post": 0.013,
+        "evalue": 1.35,
+        "ess_opioid": 84.0,
+        "ess_dopa": 498.3
+      },
+      {
+        "label": "MC-MED ret_7d_ha",
+        "outcome": "ret_7d_ha",
+        "n": 751,
+        "n_opioid": 85,
+        "risk_opioid": 3.65,
+        "risk_dopa": 3.38,
+        "rd_pct": 0.28,
+        "rd_ci": [
+          -3.81,
+          4.86
+        ],
+        "rr": 1.082,
+        "rr_ci": [
+          0.0,
+          2.744
+        ],
+        "smd_pre": 0.307,
+        "smd_post": 0.013,
+        "evalue": 1.38,
+        "ess_opioid": 84.0,
+        "ess_dopa": 498.3
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+._*
+
+# Patient-level cohort files and source databases are never redistributed;
+# the databases come from PhysioNet under their own credentialed data use agreements.
+results/intermediate/
+*.parquet
+mimic-iv-ed-2.2/
+mimic-iv-3.1/
+mc-med-1.0.0/

@@ -1,0 +1,144 @@
+{
+  "ps_range_opioid": [
+    0.0535,
+    0.9994
+  ],
+  "ps_range_dopa": [
+    0.0004,
+    0.9042
+  ],
+  "common_support": [
+    0.0535,
+    0.9042
+  ],
+  "n_outside_common_support": 18,
+  "pct_outside_common_support": 0.49,
+  "max_vif": 8.0,
+  "vif_by_term": {
+    "age": 1.12,
+    "pain_num": 1.05,
+    "prior_ed": 1.07,
+    "pain_miss": 1.15,
+    "gender_M": 1.03,
+    "race_grp_Black": 6.65,
+    "race_grp_Hispanic": 4.45,
+    "race_grp_Other/Unknown": 3.18,
+    "race_grp_White": 8.0,
+    "acuity_2.0": 4.97,
+    "acuity_3.0": 5.21,
+    "acuity_4.0": 1.34,
+    "acuity_5.0": 1.02,
+    "acuity_missing": 1.13,
+    "arrival_transport_HELICOPTER": 1.03,
+    "arrival_transport_OTHER": 1.02,
+    "arrival_transport_UNKNOWN": 1.01,
+    "arrival_transport_WALK IN": 1.11,
+    "shift_evening": 1.17,
+    "shift_night": 1.19,
+    "yeargrp_2112": 3.52,
+    "yeargrp_2115": 3.34,
+    "yeargrp_2118": 4.31,
+    "yeargrp_2121": 4.61,
+    "yeargrp_2124": 5.14,
+    "yeargrp_2127": 4.75,
+    "yeargrp_2130": 5.76,
+    "yeargrp_2133": 6.16,
+    "yeargrp_2136": 4.74,
+    "yeargrp_2139": 5.5,
+    "yeargrp_2142": 5.61,
+    "yeargrp_2145": 5.29,
+    "yeargrp_2148": 4.65,
+    "yeargrp_2151": 5.54,
+    "yeargrp_2154": 5.13,
+    "yeargrp_2157": 4.86,
+    "yeargrp_2160": 5.11,
+    "yeargrp_2163": 5.29,
+    "yeargrp_2166": 5.13,
+    "yeargrp_2169": 4.66,
+    "yeargrp_2172": 5.74,
+    "yeargrp_2175": 5.85,
+    "yeargrp_2178": 5.48,
+    "yeargrp_2181": 5.1,
+    "yeargrp_2184": 5.32,
+    "yeargrp_2187": 5.73,
+    "yeargrp_2190": 3.26,
+    "yeargrp_2193": 2.66,
+    "yeargrp_2196": 2.68,
+    "yeargrp_2199": 2.1,
+    "yeargrp_2202": 1.89,
+    "yeargrp_2205": 1.24,
+    "yeargrp_2208": 1.07
+  },
+  "cramers_v_arrival_acuity": 0.082,
+  "cramers_v_treatment_arrival": 0.166,
+  "cramers_v_treatment_acuity": 0.168,
+  "trimmed_1pct": {
+    "label": "trim1pct",
+    "outcome": "ret_72h",
+    "n": 3625,
+    "n_opioid": 1016,
+    "risk_opioid": 6.61,
+    "risk_dopa": 3.89,
+    "rd_pct": 2.72,
+    "rd_ci": [
+      0.95,
+      4.47
+    ],
+    "rr": 1.698,
+    "rr_ci": [
+      1.227,
+      2.316
+    ],
+    "smd_pre": 0.311,
+    "smd_post": 0.001,
+    "evalue": 2.79,
+    "ess_opioid": 973.0,
+    "ess_dopa": 2157.2
+  },
+  "refit_drop_arrival": {
+    "label": "drop-arrival",
+    "outcome": "ret_72h",
+    "n": 3699,
+    "n_opioid": 1049,
+    "risk_opioid": 6.59,
+    "risk_dopa": 3.98,
+    "rd_pct": 2.61,
+    "rd_ci": [
+      1.11,
+      4.3
+    ],
+    "rr": 1.656,
+    "rr_ci": [
+      1.246,
+      2.222
+    ],
+    "smd_pre": 0.337,
+    "smd_post": 0.002,
+    "evalue": 2.7,
+    "ess_opioid": 1004.8,
+    "ess_dopa": 2227.0
+  },
+  "refit_drop_acuity": {
+    "label": "drop-acuity",
+    "outcome": "ret_72h",
+    "n": 3699,
+    "n_opioid": 1049,
+    "risk_opioid": 6.72,
+    "risk_dopa": 3.82,
+    "rd_pct": 2.9,
+    "rd_ci": [
+      1.07,
+      4.56
+    ],
+    "rr": 1.758,
+    "rr_ci": [
+      1.259,
+      2.382
+    ],
+    "smd_pre": 0.349,
+    "smd_post": 0.002,
+    "evalue": 2.91,
+    "ess_opioid": 1007.0,
+    "ess_dopa": 2228.9
+  }
+}

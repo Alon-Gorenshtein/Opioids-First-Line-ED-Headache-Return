@@ -1,0 +1,74 @@
+{
+  "n_excluded": 19054,
+  "MIMIC_no_secondary": [
+    {
+      "label": "no-secondary ret_72h",
+      "outcome": "ret_72h",
+      "n": 3584,
+      "n_opioid": 979,
+      "risk_opioid": 6.85,
+      "risk_dopa": 3.87,
+      "rd_pct": 2.98,
+      "rd_ci": [
+        1.08,
+        4.96
+      ],
+      "rr": 1.77,
+      "rr_ci": [
+        1.254,
+        2.478
+      ],
+      "smd_pre": 0.328,
+      "smd_post": 0.002,
+      "evalue": 2.94,
+      "ess_opioid": 929.6,
+      "ess_dopa": 2115.5
+    },
+    {
+      "label": "no-secondary ret_7d",
+      "outcome": "ret_7d",
+      "n": 3584,
+      "n_opioid": 979,
+      "risk_opioid": 10.96,
+      "risk_dopa": 6.71,
+      "rd_pct": 4.25,
+      "rd_ci": [
+        2.04,
+        6.6
+      ],
+      "rr": 1.634,
+      "rr_ci": [
+        1.274,
+        2.061
+      ],
+      "smd_pre": 0.328,
+      "smd_post": 0.002,
+      "evalue": 2.65,
+      "ess_opioid": 929.6,
+      "ess_dopa": 2115.5
+    },
+    {
+      "label": "no-secondary admission",
+      "outcome": "admitted",
+      "n": 4593,
+      "n_opioid": 1638,
+      "risk_opioid": 33.75,
+      "risk_dopa": 13.28,
+      "rd_pct": 20.46,
+      "rd_ci": [
+        17.7,
+        23.08
+      ],
+      "rr": 2.54,
+      "rr_ci": [
+        2.24,
+        2.902
+      ],
+      "smd_pre": 0.442,
+      "smd_post": 0.002,
+      "evalue": 4.52,
+      "ess_opioid": 1484.6,
+      "ess_dopa": 2397.2
+    }
+  ]
+}

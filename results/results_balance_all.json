@@ -1,0 +1,140 @@
+[
+  {
+    "label": "Pooled, discharged (72h return)",
+    "outcome": "ret_72h",
+    "n": 4450,
+    "n_opioid": 1134,
+    "risk_opioid": 6.76,
+    "risk_dopa": 3.79,
+    "rd_pct": 2.97,
+    "rd_ci": [
+      1.36,
+      4.56
+    ],
+    "rr": 1.784,
+    "rr_ci": [
+      1.328,
+      2.377
+    ],
+    "smd_pre": 0.371,
+    "smd_post": 0.003,
+    "evalue": 2.97,
+    "ess_opioid": 1078.8,
+    "ess_dopa": 2569.8
+  },
+  {
+    "label": "MIMIC-IV-ED, discharged (72h return)",
+    "outcome": "ret_72h",
+    "n": 3699,
+    "n_opioid": 1049,
+    "risk_opioid": 6.73,
+    "risk_dopa": 3.77,
+    "rd_pct": 2.96,
+    "rd_ci": [
+      1.28,
+      4.65
+    ],
+    "rr": 1.786,
+    "rr_ci": [
+      1.313,
+      2.407
+    ],
+    "smd_pre": 0.349,
+    "smd_post": 0.001,
+    "evalue": 2.97,
+    "ess_opioid": 999.0,
+    "ess_dopa": 2196.4
+  },
+  {
+    "label": "MC-MED, discharged (72h return)",
+    "outcome": "ret_72h",
+    "n": 751,
+    "n_opioid": 85,
+    "risk_opioid": 7.17,
+    "risk_dopa": 3.77,
+    "rd_pct": 3.39,
+    "rd_ci": [
+      -2.11,
+      10.01
+    ],
+    "rr": 1.899,
+    "rr_ci": [
+      0.565,
+      4.255
+    ],
+    "smd_pre": 0.307,
+    "smd_post": 0.013,
+    "evalue": 3.21,
+    "ess_opioid": 84.0,
+    "ess_dopa": 498.3
+  },
+  {
+    "label": "Pooled, full cohort (admission)",
+    "outcome": "admitted",
+    "n": 5938,
+    "n_opioid": 2067,
+    "risk_opioid": 38.07,
+    "risk_dopa": 16.38,
+    "rd_pct": 21.68,
+    "rd_ci": [
+      19.15,
+      24.3
+    ],
+    "rr": 2.324,
+    "rr_ci": [
+      2.1,
+      2.593
+    ],
+    "smd_pre": 0.48,
+    "smd_post": 0.001,
+    "evalue": 4.08,
+    "ess_opioid": 1839.9,
+    "ess_dopa": 2999.1
+  },
+  {
+    "label": "MIMIC-IV-ED, full cohort (admission)",
+    "outcome": "admitted",
+    "n": 4951,
+    "n_opioid": 1895,
+    "risk_opioid": 36.46,
+    "risk_dopa": 15.59,
+    "rd_pct": 20.87,
+    "rd_ci": [
+      18.17,
+      23.17
+    ],
+    "rr": 2.338,
+    "rr_ci": [
+      2.099,
+      2.611
+    ],
+    "smd_pre": 0.509,
+    "smd_post": 0.001,
+    "evalue": 4.11,
+    "ess_opioid": 1684.0,
+    "ess_dopa": 2488.9
+  },
+  {
+    "label": "MC-MED, full cohort (admission)",
+    "outcome": "admitted",
+    "n": 987,
+    "n_opioid": 172,
+    "risk_opioid": 49.2,
+    "risk_dopa": 22.05,
+    "rd_pct": 27.14,
+    "rd_ci": [
+      18.67,
+      35.25
+    ],
+    "rr": 2.231,
+    "rr_ci": [
+      1.775,
+      2.734
+    ],
+    "smd_pre": 0.323,
+    "smd_post": 0.009,
+    "evalue": 3.89,
+    "ess_opioid": 167.2,
+    "ess_dopa": 624.7
+  }
+]

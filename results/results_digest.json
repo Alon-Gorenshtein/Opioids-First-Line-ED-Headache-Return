@@ -1,0 +1,105 @@
+{
+  "primary": [
+    {
+      "label": "72h return | discharged, opioid vs dopamine",
+      "outcome": "ret_72h",
+      "n": 3699,
+      "n_opioid": 1049,
+      "risk_opioid": 6.66,
+      "risk_dopa": 3.86,
+      "rd_pct": 2.8,
+      "rd_ci": [
+        1.1,
+        4.5
+      ],
+      "rr": 1.725,
+      "rr_ci": [
+        1.235,
+        2.327
+      ],
+      "smd_pre": 0.349,
+      "smd_post": 0.002,
+      "evalue": 2.84
+    },
+    {
+      "label": "7d return | discharged, opioid vs dopamine",
+      "outcome": "ret_7d",
+      "n": 3699,
+      "n_opioid": 1049,
+      "risk_opioid": 10.51,
+      "risk_dopa": 6.68,
+      "rd_pct": 3.83,
+      "rd_ci": [
+        1.62,
+        6.08
+      ],
+      "rr": 1.574,
+      "rr_ci": [
+        1.227,
+        1.983
+      ],
+      "smd_pre": 0.349,
+      "smd_post": 0.002,
+      "evalue": 2.53
+    },
+    {
+      "label": "index admission | all, opioid vs dopamine",
+      "outcome": "admitted",
+      "n": 4951,
+      "n_opioid": 1895,
+      "risk_opioid": 36.48,
+      "risk_dopa": 15.5,
+      "rd_pct": 20.97,
+      "rd_ci": [
+        18.33,
+        23.49
+      ],
+      "rr": 2.353,
+      "rr_ci": [
+        2.114,
+        2.642
+      ],
+      "smd_pre": 0.509,
+      "smd_post": 0.002,
+      "evalue": 4.14
+    }
+  ],
+  "crude_by_class": {
+    "acetaminophen": {
+      "n": 2539,
+      "ret72": 4.17,
+      "ret7d": 6.38,
+      "ret30": 11.26
+    },
+    "dopamine_antagonist": {
+      "n": 2650,
+      "ret72": 3.81,
+      "ret7d": 6.49,
+      "ret30": 11.06
+    },
+    "magnesium": {
+      "n": 128,
+      "ret72": 8.59,
+      "ret7d": 10.16,
+      "ret30": 17.97
+    },
+    "nsaid": {
+      "n": 1964,
+      "ret72": 4.38,
+      "ret7d": 6.82,
+      "ret30": 11.25
+    },
+    "opioid": {
+      "n": 1049,
+      "ret72": 6.58,
+      "ret7d": 10.3,
+      "ret30": 16.49
+    },
+    "triptan": {
+      "n": 16,
+      "ret72": 6.25,
+      "ret7d": 6.25,
+      "ret30": 18.75
+    }
+  }
+}

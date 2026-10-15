@@ -1,0 +1,148 @@
+{
+  "restricted_comparator": [
+    {
+      "label": "restrict-comp ret_72h",
+      "outcome": "ret_72h",
+      "n": 3659,
+      "n_opioid": 1049,
+      "risk_opioid": 6.66,
+      "risk_dopa": 3.82,
+      "rd_pct": 2.84,
+      "rd_ci": [
+        1.04,
+        4.49
+      ],
+      "rr": 1.742,
+      "rr_ci": [
+        1.238,
+        2.326
+      ],
+      "smd_pre": 0.352,
+      "smd_post": 0.002,
+      "evalue": 2.88,
+      "ess_opioid": 990.2,
+      "ess_dopa": 2127.6
+    },
+    {
+      "label": "restrict-comp ret_7d",
+      "outcome": "ret_7d",
+      "n": 3659,
+      "n_opioid": 1049,
+      "risk_opioid": 10.51,
+      "risk_dopa": 6.62,
+      "rd_pct": 3.89,
+      "rd_ci": [
+        1.88,
+        5.93
+      ],
+      "rr": 1.588,
+      "rr_ci": [
+        1.266,
+        1.979
+      ],
+      "smd_pre": 0.352,
+      "smd_post": 0.002,
+      "evalue": 2.55,
+      "ess_opioid": 990.2,
+      "ess_dopa": 2127.6
+    },
+    {
+      "label": "restrict-comp admission",
+      "outcome": "admitted",
+      "n": 4899,
+      "n_opioid": 1895,
+      "risk_opioid": 36.4,
+      "risk_dopa": 15.23,
+      "rd_pct": 21.17,
+      "rd_ci": [
+        18.39,
+        23.63
+      ],
+      "rr": 2.39,
+      "rr_ci": [
+        2.128,
+        2.67
+      ],
+      "smd_pre": 0.514,
+      "smd_post": 0.002,
+      "evalue": 4.21,
+      "ess_opioid": 1667.6,
+      "ess_dopa": 2421.0
+    }
+  ],
+  "drop_opioid_ties": [
+    {
+      "label": "drop-ties ret_72h",
+      "outcome": "ret_72h",
+      "n": 3267,
+      "n_opioid": 617,
+      "risk_opioid": 6.83,
+      "risk_dopa": 3.85,
+      "rd_pct": 2.98,
+      "rd_ci": [
+        0.84,
+        5.43
+      ],
+      "rr": 1.775,
+      "rr_ci": [
+        1.194,
+        2.584
+      ],
+      "smd_pre": 0.358,
+      "smd_post": 0.002,
+      "evalue": 2.95,
+      "ess_opioid": 595.1,
+      "ess_dopa": 1954.1
+    },
+    {
+      "label": "drop-ties ret_7d",
+      "outcome": "ret_7d",
+      "n": 3267,
+      "n_opioid": 617,
+      "risk_opioid": 11.27,
+      "risk_dopa": 6.71,
+      "rd_pct": 4.56,
+      "rd_ci": [
+        1.99,
+        7.35
+      ],
+      "rr": 1.681,
+      "rr_ci": [
+        1.278,
+        2.188
+      ],
+      "smd_pre": 0.358,
+      "smd_post": 0.002,
+      "evalue": 2.75,
+      "ess_opioid": 595.1,
+      "ess_dopa": 1954.1
+    },
+    {
+      "label": "drop-ties admission",
+      "outcome": "admitted",
+      "n": 4222,
+      "n_opioid": 1166,
+      "risk_opioid": 39.55,
+      "risk_dopa": 16.83,
+      "rd_pct": 22.72,
+      "rd_ci": [
+        19.62,
+        25.67
+      ],
+      "rr": 2.35,
+      "rr_ci": [
+        2.096,
+        2.66
+      ],
+      "smd_pre": 0.553,
+      "smd_post": 0.002,
+      "evalue": 4.13,
+      "ess_opioid": 1062.9,
+      "ess_dopa": 2202.4
+    }
+  ],
+  "n_restricted_dopa": 3004,
+  "n_restricted_dopa_discharged": 2610,
+  "n_core_dopa_any_stay": 3806,
+  "n_tie_opioid_dropped": 729
+}

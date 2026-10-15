@@ -1,0 +1,7 @@
+Analytic population,n,Opioid n,Max SMD before,Max SMD after,"Effective n, opioid","Effective n, dopamine"
+"Pooled, discharged (72h return)","4,450","1,134",0.371,0.003,"1,079","2,570"
+"MIMIC-IV-ED, discharged (72h return)","3,699","1,049",0.349,0.001,999,"2,196"
+"MC-MED, discharged (72h return)",751,85,0.307,0.013,84,498
+"Pooled, full cohort (admission)","5,938","2,067",0.480,0.001,"1,840","2,999"
+"MIMIC-IV-ED, full cohort (admission)","4,951","1,895",0.509,0.001,"1,684","2,489"
+"MC-MED, full cohort (admission)",987,172,0.323,0.009,167,625

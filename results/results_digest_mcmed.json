@@ -1,0 +1,76 @@
+{
+  "n_cohort": 2486,
+  "adjusted": [
+    {
+      "label": "72h return",
+      "outcome": "ret_72h",
+      "n": 751,
+      "risk_opioid": 7.17,
+      "risk_dopa": 3.77,
+      "rr": 1.899,
+      "rr_ci": [
+        0.602,
+        4.519
+      ],
+      "smd_post": 0.013
+    },
+    {
+      "label": "7d return",
+      "outcome": "ret_7d",
+      "n": 751,
+      "risk_opioid": 11.9,
+      "risk_dopa": 6.2,
+      "rr": 1.92,
+      "rr_ci": [
+        0.816,
+        3.633
+      ],
+      "smd_post": 0.013
+    },
+    {
+      "label": "admission",
+      "outcome": "admitted",
+      "n": 987,
+      "risk_opioid": 49.2,
+      "risk_dopa": 22.05,
+      "rr": 2.231,
+      "rr_ci": [
+        1.785,
+        2.766
+      ],
+      "smd_post": 0.009
+    }
+  ],
+  "crude_by_class": {
+    "acetaminophen": {
+      "n": 760,
+      "ret72": 4.74,
+      "ret7d": 7.89
+    },
+    "dopamine_antagonist": {
+      "n": 666,
+      "ret72": 3.3,
+      "ret7d": 5.41
+    },
+    "magnesium": {
+      "n": 37,
+      "ret72": 5.41,
+      "ret7d": 8.11
+    },
+    "nsaid": {
+      "n": 336,
+      "ret72": 4.46,
+      "ret7d": 8.04
+    },
+    "opioid": {
+      "n": 85,
+      "ret72": 7.06,
+      "ret7d": 11.76
+    },
+    "triptan": {
+      "n": 7,
+      "ret72": 0.0,
+      "ret7d": 14.29
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "MIMIC_primary_headache": [
+    {
+      "label": "primary-ha ret_72h",
+      "outcome": "ret_72h",
+      "n": 601,
+      "n_opioid": 102,
+      "risk_opioid": 7.83,
+      "risk_dopa": 3.08,
+      "rd_pct": 4.74,
+      "rd_ci": [
+        -0.65,
+        11.14
+      ],
+      "rr": 2.538,
+      "rr_ci": [
+        0.832,
+        8.821
+      ],
+      "smd_pre": 0.383,
+      "smd_post": 0.054,
+      "evalue": 4.51,
+      "ess_opioid": 96.3,
+      "ess_dopa": 307.7
+    },
+    {
+      "label": "primary-ha ret_7d",
+      "outcome": "ret_7d",
+      "n": 601,
+      "n_opioid": 102,
+      "risk_opioid": 11.9,
+      "risk_dopa": 4.58,
+      "rd_pct": 7.32,
+      "rd_ci": [
+        1.25,
+        15.15
+      ],
+      "rr": 2.6,
+      "rr_ci": [
+        1.208,
+        6.83
+      ],
+      "smd_pre": 0.383,
+      "smd_post": 0.054,
+      "evalue": 4.64,
+      "ess_opioid": 96.3,
+      "ess_dopa": 307.7
+    },
+    {
+      "label": "primary-ha admission",
+      "outcome": "admitted",
+      "n": 636,
+      "n_opioid": 118,
+      "risk_opioid": 12.32,
+      "risk_dopa": 2.65,
+      "rd_pct": 9.67,
+      "rd_ci": [
+        3.92,
+        16.02
+      ],
+      "rr": 4.647,
+      "rr_ci": [
+        2.073,
+        13.688
+      ],
+      "smd_pre": 0.377,
+      "smd_post": 0.051,
+      "evalue": 8.76,
+      "ess_opioid": 110.6,
+      "ess_dopa": 332.0
+    }
+  ]
+}

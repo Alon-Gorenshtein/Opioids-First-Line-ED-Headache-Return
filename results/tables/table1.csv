@@ -1,0 +1,15 @@
+Characteristic,Dopamine antagonist,Opioid,NSAID/ketorolac,Acetaminophen,IV magnesium
+No. of patients,"3,056","1,895","2,304","3,361",167
+"Age, median (IQR), y",39 (28-52),48 (35-60),40 (27-54),47 (30-62),48 (32-61)
+"Female, %",77.3,67.2,67.6,70.4,71.3
+"White, %",48.6,58.1,45.1,48.8,37.7
+"Black, %",26.4,20.4,29.1,28.4,30.5
+"Hispanic, %",13.0,10.8,11.9,10.8,15.0
+"Arrival by ambulance, %",18.1,39.3,19.2,25.7,22.8
+"Triage acuity 1-2 (higher), %",29.5,51.7,26.3,37.8,32.9
+"Triage pain, median (IQR)",8 (6-9),8 (6-10),7 (4-8),7 (4-8),6 (4-8)
+"Prior ED visits, median (IQR)",0 (0-1),0 (0-1),0 (0-1),0 (0-2),1 (0-3)
+"Index admission, %",11.4,42.1,12.8,21.6,19.2
+"72-hour ED return, %",3.5,4.3,3.9,3.7,7.2
+"7-day ED return, %",6.3,7.4,6.4,6.2,9.0
+"30-day ED return, %",12.0,16.4,11.2,12.7,15.6

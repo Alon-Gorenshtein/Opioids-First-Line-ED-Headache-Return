@@ -1,0 +1,192 @@
+{
+  "constituents": {
+    "MIMIC-IV-ED": {
+      "opioid": [
+        [
+          "Morphine",
+          939
+        ],
+        [
+          "Oxycodone",
+          437
+        ],
+        [
+          "Hydromorphone",
+          339
+        ],
+        [
+          "Fentanyl",
+          84
+        ],
+        [
+          "Tramadol",
+          56
+        ],
+        [
+          "Hydrocodone",
+          33
+        ],
+        [
+          "Codeine",
+          7
+        ]
+      ],
+      "dopamine_antagonist": [
+        [
+          "Metoclopramide",
+          2223
+        ],
+        [
+          "Prochlorperazine",
+          773
+        ],
+        [
+          "Promethazine",
+          48
+        ],
+        [
+          "Droperidol",
+          8
+        ],
+        [
+          "Chlorpromazine",
+          4
+        ]
+      ]
+    },
+    "MC-MED": {
+      "opioid": [
+        [
+          "Hydromorphone",
+          81
+        ],
+        [
+          "Morphine",
+          42
+        ],
+        [
+          "Hydrocodone",
+          21
+        ],
+        [
+          "Oxycodone",
+          18
+        ],
+        [
+          "Fentanyl",
+          10
+        ]
+      ],
+      "dopamine_antagonist": [
+        [
+          "Metoclopramide",
+          365
+        ],
+        [
+          "Prochlorperazine",
+          361
+        ],
+        [
+          "Droperidol",
+          84
+        ],
+        [
+          "Promethazine",
+          5
+        ]
+      ]
+    }
+  },
+  "raw_events": {
+    "MIMIC-IV-ED": {
+      "opioid": {
+        "ret72": [
+          69,
+          1049
+        ],
+        "ret7d": [
+          108,
+          1049
+        ],
+        "admit": [
+          797,
+          1895
+        ]
+      },
+      "dopa": {
+        "ret72": [
+          101,
+          2650
+        ],
+        "ret7d": [
+          172,
+          2650
+        ],
+        "admit": [
+          348,
+          3056
+        ]
+      }
+    },
+    "MC-MED": {
+      "opioid": {
+        "ret72": [
+          6,
+          85
+        ],
+        "ret7d": [
+          10,
+          85
+        ],
+        "admit": [
+          87,
+          172
+        ]
+      },
+      "dopa": {
+        "ret72": [
+          22,
+          666
+        ],
+        "ret7d": [
+          36,
+          666
+        ],
+        "admit": [
+          149,
+          815
+        ]
+      }
+    },
+    "Pooled": {
+      "opioid": {
+        "ret72": [
+          75,
+          1134
+        ],
+        "ret7d": [
+          118,
+          1134
+        ],
+        "admit": [
+          884,
+          2067
+        ]
+      },
+      "dopa": {
+        "ret72": [
+          123,
+          3316
+        ],
+        "ret7d": [
+          208,
+          3316
+        ],
+        "admit": [
+          497,
+          3871
+        ]
+      }
+    }
+  }
+}

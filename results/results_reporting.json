@@ -1,0 +1,82 @@
+{
+  "mimic_72h_opioid": {
+    "num": 69,
+    "den": 1049,
+    "pct": 6.6
+  },
+  "mimic_7d_opioid": {
+    "num": 108,
+    "den": 1049,
+    "pct": 10.3
+  },
+  "mimic_30d_opioid": {
+    "num": 173,
+    "den": 1049,
+    "pct": 16.5
+  },
+  "mimic_admit_opioid": {
+    "num": 797,
+    "den": 1895,
+    "pct": 42.1
+  },
+  "mimic_72h_dopa": {
+    "num": 101,
+    "den": 2650,
+    "pct": 3.8
+  },
+  "mimic_7d_dopa": {
+    "num": 172,
+    "den": 2650,
+    "pct": 6.5
+  },
+  "mimic_30d_dopa": {
+    "num": 293,
+    "den": 2650,
+    "pct": 11.1
+  },
+  "mimic_admit_dopa": {
+    "num": 348,
+    "den": 3056,
+    "pct": 11.4
+  },
+  "mcmed_72h_opioid": {
+    "num": 6,
+    "den": 85,
+    "pct": 7.1
+  },
+  "mcmed_7d_opioid": {
+    "num": 10,
+    "den": 85,
+    "pct": 11.8
+  },
+  "mcmed_30d_opioid": {
+    "num": 21,
+    "den": 85,
+    "pct": 24.7
+  },
+  "mcmed_admit_opioid": {
+    "num": 87,
+    "den": 172,
+    "pct": 50.6
+  },
+  "mcmed_72h_dopa": {
+    "num": 22,
+    "den": 666,
+    "pct": 3.3
+  },
+  "mcmed_7d_dopa": {
+    "num": 36,
+    "den": 666,
+    "pct": 5.4
+  },
+  "mcmed_30d_dopa": {
+    "num": 72,
+    "den": 666,
+    "pct": 10.8
+  },
+  "mcmed_admit_dopa": {
+    "num": 149,
+    "den": 815,
+    "pct": 18.3
+  }
+}

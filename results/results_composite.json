@@ -1,0 +1,79 @@
+{
+  "pooled": [
+    {
+      "label": "pooled admit-or-72h",
+      "outcome": "admit_or_ret72",
+      "n": 5938,
+      "n_opioid": 2067,
+      "risk_opioid": 42.24,
+      "risk_dopa": 19.56,
+      "rd_pct": 22.68,
+      "rd_ci": [
+        19.91,
+        25.34
+      ],
+      "rr": 2.159,
+      "rr_ci": [
+        1.978,
+        2.386
+      ],
+      "smd_pre": 0.48,
+      "smd_post": 0.001,
+      "evalue": 3.74,
+      "ess_opioid": 1839.9,
+      "ess_dopa": 2999.1
+    }
+  ],
+  "by_site": {
+    "MIMIC": [
+      {
+        "label": "MIMIC admit-or-72h",
+        "outcome": "admit_or_ret72",
+        "n": 4951,
+        "n_opioid": 1895,
+        "risk_opioid": 40.71,
+        "risk_dopa": 18.78,
+        "rd_pct": 21.93,
+        "rd_ci": [
+          19.21,
+          24.56
+        ],
+        "rr": 2.168,
+        "rr_ci": [
+          1.962,
+          2.397
+        ],
+        "smd_pre": 0.509,
+        "smd_post": 0.001,
+        "evalue": 3.76,
+        "ess_opioid": 1684.0,
+        "ess_dopa": 2488.9
+      }
+    ],
+    "MC-MED": [
+      {
+        "label": "MC-MED admit-or-72h",
+        "outcome": "admit_or_ret72",
+        "n": 987,
+        "n_opioid": 172,
+        "risk_opioid": 52.84,
+        "risk_dopa": 25.05,
+        "rd_pct": 27.79,
+        "rd_ci": [
+          19.83,
+          36.06
+        ],
+        "rr": 2.109,
+        "rr_ci": [
+          1.736,
+          2.573
+        ],
+        "smd_pre": 0.323,
+        "smd_post": 0.009,
+        "evalue": 3.64,
+        "ess_opioid": 167.2,
+        "ess_dopa": 624.7
+      }
+    ]
+  }
+}
